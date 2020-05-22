@@ -1,0 +1,61 @@
+.nav-warp {
+  padding-top: 60rpx;
+  height: 90rpx;
+  background: #1AAD19;
+}
+.iconHome {
+  display: inline-block;
+  width: 60rpx;
+  height: 60rpx;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 50%;
+  margin: 0 20rpx;
+  color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 722989 */
+  src: url('//at.alicdn.com/t/font_722989_xbnddcd6dx.eot');
+  src: url('//at.alicdn.com/t/font_722989_xbnddcd6dx.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_722989_xbnddcd6dx.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_722989_xbnddcd6dx.woff') format('woff'),
+  url('//at.alicdn.com/t/font_722989_xbnddcd6dx.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_722989_xbnddcd6dx.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 48rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon_home::before {
+  content: "\e659";
+}
+/* iconfont 组件内部使用和全局使用不能写一起 */

@@ -1,0 +1,6 @@
+<view class="nav-warp">
+  <view>
+    <text class="iconHome iconfont icon_home"></text>
+    
+  </view>
+</view>
